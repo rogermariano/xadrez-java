@@ -1,10 +1,14 @@
 package aplicacao;
 
+import tabuleiro.Posicao;
+
 public class Program {
 
 	public static void main(String[] args) {
 
-		System.out.println("Teste para o sistema de xadrez");
+	Posicao posicao = new Posicao( 3,5);
+	
+	System.out.println(posicao);
 		
 	}
 
